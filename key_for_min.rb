@@ -14,8 +14,8 @@ def key_for_min_value(name_hash)
   name_hash.collect do |key, value|
     if value < y
       y = value
-      
+
     end
   end
-  name_hash[y
+  name_hash.index(y)
 end
